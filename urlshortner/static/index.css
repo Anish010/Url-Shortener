@@ -1,0 +1,128 @@
+@import url('https://fonts.googleapis.com/css2?family=Chivo+Mono:wght@600&display=swap');
+
+
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+
+* {
+  text-align: center;
+  margin-top: 25px;
+}
+.heading {
+  margin: auto;
+  font-family: 'Chivo Mono', monospace;
+}
+
+.body{
+  justify-content: center;
+}
+
+.box {
+  display: flex;
+  font-family: "Lato", sans-serif;
+  line-height: 1.5;
+  justify-content: flex-end;
+  align-items: stretch;;
+  /* align-content: center; */
+  flex-direction: column;
+  width: 40%;
+  height: 60vh;
+  box-shadow: 0 1px 4px #ccc;
+  margin: 40px auto;
+  border-radius: 2px;
+  /* padding: 10px 30px 5px; */
+  background-color: rgba(255, 198, 93, 0.954);
+}
+
+.section_result{
+  text-align: center;
+  
+  width: 100%;
+  height: 100px;
+  box-shadow: 0 1px 4px #ccc;
+  background-color: rgba(255, 255, 255, 0.954);
+  display: flex;
+    align-content: center;
+    justify-content: center;
+    flex-direction: column;
+}
+.link_input {
+  width: 90%;
+  height: 50px;
+  border: 1px solid #ccc;
+  border-radius: 2px;
+  padding: 30px;
+  margin-bottom: 10px;
+}
+
+.shorten_btn {
+  width: 60%;
+}
+
+/* body,
+section {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 1rem;
+}
+
+body {
+  min-height: 100vh;
+  font-family: "Lato", sans-serif;
+  line-height: 1.5;
+  color: #111;
+}
+
+main {
+  max-width: 720px;
+  width: 100%;
+  border: 2.5px solid #330867;
+  border-radius: 2.5px;
+  box-shadow: 0 10px 20px rgba(17, 17, 17, 0.125),
+    0 5px 5px rgba(17, 17, 17, 0.25);
+  background-image: linear-gradient(to top, #30cfd0 0%, #330867 100%);
+}
+
+h1 {
+  padding: 1rem;
+  color: white;
+}
+
+input,
+button {
+  font-family: inherit;
+  line-height: inherit;
+  color: inherit;
+  border: 0;
+  padding: 1rem;
+}
+
+input {
+  box-sizing: border-box;
+  width: 100%;
+}
+
+.buttons {
+  display: flex;
+}
+
+button {
+  cursor: pointer;
+  flex: 1;
+  background-color: transparent;
+  color: white;
+}
+
+.shorten_btn:hover {
+  background-color: rgba(255, 255, 255, 0.5);
+}
+
+section {
+  min-height: 120px;
+  text-align: center;
+  background-color: white;
+} */
